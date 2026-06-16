@@ -1,29 +1,35 @@
+#LIST
 #list are ordered collection of items
 #list are changeable(mutable)
 #list allow duplicate values
 #list are defined using square brackets []
-fruits=["passion","mangoes","guava","orange","banana","apple","watermelon"]
-print(fruits)
-#accessing items in a list using index
-print(fruits[0])  #passion
-print(fruits[4])
-#changing list items
-fruits[2]="kiwi"
-print(fruits)
-
-#looping through a list
-for x in fruits:
+my_list=[23,45,"Mary",True,2.678,"Brian"]
+print(my_list)
+my_list.append("Shiro")                   #append() adds item to the end of the list
+print(my_list)
+print(len(my_list))
+my_list.pop(2)
+print(my_list)
+my_list.insert(4,"Phill")
+print(my_list)
+new_list=["Apples","books",567,"Age"]
+print(new_list)
+my_list.extend(new_list)
+print(my_list)
+for x in my_list:
     print(x)
-#list methods append(),insert(),remove(),pop(),clear(),sort(),reverse(),copy()
-#append()-used to add an item to the end of the list
-fruits.append("grapes")
-print(fruits)
-#sort()-sorts in alphabetical order
-fruits.sort()
-print(fruits)
-#insert()-used to add an item at a specified index
-fruits.insert(0,"pear")
-print(fruits)
-#remove()-used to remove a specified item
-fruits.remove("banana")
-print(fruits)
+my_list.remove(23)
+print(my_list)
+del my_list[3]
+print(my_list)
+
+
+
+#Tuples
+my_tupple=("Sherry","Shanny","Whitney","Phill")
+print(my_tupple)
+print(type(my_tupple))
+
+
+
+
