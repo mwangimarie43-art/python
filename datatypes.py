@@ -1,6 +1,8 @@
 #data types
 #data types tells python what kind of value we are working with
 #string
+import array as arr
+
 school="JKUAT"
 location="Kenya"
 print(type(school))    #string
@@ -37,7 +39,28 @@ age2=12
 print(age1 is age2)
 print(age1 is not age2)
 
-my_arr=[34,2,4,67,87,56]
+
+#ARRAYS
+my_arr=arr.array('i',[34,2,4,67,87,56])
+print(my_arr)
+print(my_arr.index(2))
+print(type(my_arr))
+my_arr.append(23)
+print(my_arr)
+my_arr.insert(2,134)
+print(my_arr)
+my_arr.remove(4)
+print(my_arr)
+my_arr.pop()
+print(my_arr)
+my_arr.reverse()
 print(my_arr)
 
+for x in my_arr:
+    print(x)
 
+my_array=arr.array('i',[2,3,1,24,12])
+print(my_array)
+my_arr.extend(my_array)
+print(my_arr)
+my_string=arr.array()

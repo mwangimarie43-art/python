@@ -2,7 +2,7 @@
 #try-tests the code that might cause an error
 #except-handles the error
 try:
-    x=10
+    x=int(input("Enter Number:"))
     print(x/0)
 except ZeroDivisionError:
     print("you can't divide a number by zero")
