@@ -31,6 +31,13 @@ print(type(is_open))
 print(type(is_closed))
 
 
+#identity operator
+age1=234
+age2=12
+print(age1 is age2)
+print(age1 is not age2)
 
+my_arr=[34,2,4,67,87,56]
+print(my_arr)
 
 
