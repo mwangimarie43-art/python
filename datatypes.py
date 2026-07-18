@@ -2,6 +2,7 @@
 #data types tells python what kind of value we are working with
 #string
 import array as arr
+import numpy as np
 
 school="JKUAT"
 location="Kenya"

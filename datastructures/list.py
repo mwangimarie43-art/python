@@ -22,7 +22,17 @@ my_list.remove(23)
 print(my_list)
 del my_list[3]
 print(my_list)
+print(my_list[2:5])
 
+
+my_colors=["red","green","blue"]
+print(my_colors)
+my_colors[2]="yellow"
+print(my_colors)
+my_colors.append("purple")
+print(my_colors)
+my_colors.remove("red")
+print(my_colors)
 
 
 #Tuples

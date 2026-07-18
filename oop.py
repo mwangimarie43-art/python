@@ -42,7 +42,7 @@ student2=Student("Phill","Muchiri",25,"Mathematics")
 print(student2)
 #calling fullname method
 print(student1.fullname())  #Mary Mwangi    
-print(student2.fullname())  #John Doe
+print(student2.fullname())  #Philliph Muchiri
 print(student1.studentemail())
 print(student2.studentemail())
 
