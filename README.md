@@ -6,3 +6,8 @@ What I learnt:
    data cleaning and preparion
    Pivot tables and pivort charts
    Data visualization and dashboard creation
+
+
+Python:
+Learnt python basics,yet to decide the project
+

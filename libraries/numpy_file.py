@@ -1,2 +1,5 @@
+#numpy is used fot working with arrays
 import numpy as np
-my_array=np.numpy[23,34,12,0]
+arr=np.array([23,34,12,0])
+print(arr)
+print(type(arr))
