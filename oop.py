@@ -40,9 +40,40 @@ student1=Student("Mary","Mwangi",20,"Computer Science")
 print(student1)  
 student2=Student("Phill","Muchiri",25,"Mathematics")
 print(student2)
-#calling fullname method
+
 print(student1.fullname())  #Mary Mwangi    
 print(student2.fullname())  #Philliph Muchiri
 print(student1.studentemail())
 print(student2.studentemail())
+
+
+#inheritance
+class School:
+    def __init__(self,name,location):
+        self.name=name
+        self.location=location
+    def __str__(self):
+        return f"School Name:{self.name},School Location:{self.location}"
+    def fullname(self):
+        return f"School Name:{self.name}"
+    def location(self):
+        return f"School Location:{self.location}"
+
+        
+school1=School(JKUAT,Juja)
+print(school1)
+print(school1.fullname)
+print(school1.location)
+
+
+
+
+ 
+
+
+
+
+
+
+
 
