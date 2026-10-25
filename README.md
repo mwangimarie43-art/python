@@ -9,5 +9,5 @@ What I learnt:
 
 
 Python:
-Learnt python basics,yet to decide the project
+Learnt python basics,yet to decide the project to work on
 
